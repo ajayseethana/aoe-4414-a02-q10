@@ -49,7 +49,6 @@ else:
 
 # write script below this line
 
-print("Hello World")
 lat_rad = float(lat_deg) * math.pi / 180
 lon_rad = float(lon_deg) * math.pi / 180
 hae_km = float(hae_km)
