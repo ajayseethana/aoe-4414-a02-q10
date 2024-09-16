@@ -10,7 +10,7 @@
 # Output:
 #  A description of the script output
 #
-# Written by Ajay Seethana
+# Written by Ajay Seethana, adopted from slides/examples from Bradley Denby/AOE 4414
 # Other contributors: None
 #
 # Optional license statement, e.g., See the LICENSE file for the license.
@@ -60,8 +60,6 @@ r_x = (C_E + hae_km)*math.cos(lat_rad)*math.cos(lon_rad)
 r_y = (C_E + hae_km)*math.cos(lat_rad)*math.sin(lon_rad)
 r_z = (S_E + hae_km)*math.sin(lat_rad)
 
-print(r_x)
-print(r_y)
-print(r_z)
-
-
+print(round(r_x, 6))
+print(round(r_y,6))
+print(round(r_z, 6))
